@@ -30,6 +30,7 @@ jobs:
 
     - name: Run tests
       run: dotnet test --no-build --verbosity normal
+      working-directory: github4women
 
   custom-script-job:
     runs-on: ubuntu-latest
